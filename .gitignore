@@ -55,4 +55,6 @@ temp/
 
 # Synced repositories directory
 # We don't want to commit the actual code from other repositories
-repositories/ 
+repositories/*
+# But we want to include the README.md file
+!repositories/README.md 
